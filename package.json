@@ -1,0 +1,22 @@
+{
+	"name": "notes-app",
+	"version": "1.0.0",
+	"description": "A simple notes app for terminal",
+	"author": {
+		"name": "Surya Hebbar",
+		"url": "https://github.com/llsuryall"
+	},
+	"bin": {
+		"notes-app": "./bin/notes-app.js"
+	},
+	"main": "./bin/notes-app.js",
+	"type": "module",
+	"license": "GPLv3",
+	"dependencies": {
+		"abbrev": "^1.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/llsuryall/notes-app-nodejs"
+	}
+}
